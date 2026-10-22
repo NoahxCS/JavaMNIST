@@ -1,0 +1,8 @@
+# Keep text line endings consistent for everyone on the team (Windows, macOS, Linux).
+* text=auto eol=lf
+
+# Binary files that must never be line-ending converted.
+*.zip binary
+*.jar binary
+*.db binary
+*.png binary

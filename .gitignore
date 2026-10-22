@@ -1,0 +1,24 @@
+# Build output
+target/
+*.class
+
+# Local Maven repository (only used when the normal ~/.m2 is not writable)
+.m2repo/
+
+# Generated at runtime - each machine has its own history
+digits.db
+digits.db-journal
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+nbproject/
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Note: mnist_model.zip IS committed on purpose, so the app can be started
+# without training first. Delete this line to keep the model out of git.

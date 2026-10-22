@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Optional Maven settings used when the normal user repository (~/.m2/repository)
+  is not writable, for example inside a restricted or sandboxed environment.
+  It keeps all downloaded jars inside the project folder at .m2repo/.
+
+  Use it with:  mvn -s maven-settings-localrepo.xml clean compile
+-->
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                              https://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <localRepository>${user.dir}/.m2repo</localRepository>
+</settings>

@@ -1,0 +1,4 @@
+MNIST Digit Classifier - Java Swing desktop app that recognises handwritten digits.
+Draw a digit on the canvas, press Predict, and it shows the digit with a confidence
+percentage. Uses Deeplearning4j (784-128-10 MLP) for the network and SQLite for the
+prediction history. Maven project, Java 17+, simple readable code with no lambdas.
